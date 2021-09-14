@@ -1,3 +1,7 @@
+# build: docker-compose build
+# run: docker-compose up -d
+# view running container: docker ps
+# stop application: docker-compose down
 services:
   productservice:
     build: product-service

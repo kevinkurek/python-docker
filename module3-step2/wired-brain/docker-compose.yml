@@ -4,4 +4,4 @@ services:
   web:
     build: nginx
     ports:
-      - "80:80"
+      - "80:80" # port 80 on container as port 80 on local machine
